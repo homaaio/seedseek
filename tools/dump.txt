@@ -1,0 +1,164 @@
+SeedManager dump 2026-11-17T17:40:03
+scene: 
+Seed=27656  RandomizeSeed=True  MaxAttempts=50  EscapeItemPuzzleChance=0.70  fillAllFreeSpawns=True  activatePlacedItems=True
+
+requiredEscapeItemNames (11):
+  Pliers
+  MasterKey
+  Hammer
+  PDKey
+  SafeKey
+  Wrench
+  CarKey
+  CarBattery
+  Engine
+  Gas
+  SparkPlug
+
+spawnAreas (10):
+  [0] 'BasementArea' max=1 cur=1 mandatory='' used=1 free=2
+        used[0] -3.0,10.3,3.1
+        free[0] 1.1,10.0,5.6
+        free[1] -3.0,10.3,3.1
+  [1] 'Garage' max=2 cur=2 mandatory='' used=2 free=8
+        used[0] 7.0,4.4,6.0
+        used[1] 4.0,4.8,-5.9
+        free[0] 6.9,3.2,-5.9
+        free[1] -1.2,3.2,-5.9
+        free[2] -0.0,3.2,-5.9
+        free[3] -1.8,4.8,-5.9
+        free[4] 4.0,4.8,-5.9
+        free[5] 7.0,4.4,6.0
+        free[6] -0.3,4.7,11.0
+        free[7] 4.0,3.4,-0.8
+  [2] 'Living' max=2 cur=2 mandatory='' used=2 free=7
+        used[0] -17.8,13.8,-3.4
+        used[1] -15.4,15.5,-2.9
+        free[0] -18.7,15.4,0.6
+        free[1] -8.0,15.0,5.3
+        free[2] -8.0,13.9,4.4
+        free[3] -8.0,17.0,4.4
+        free[4] -15.4,15.5,-2.9
+        free[5] -16.1,14.5,-3.4
+        free[6] -17.8,13.8,-3.4
+  [3] 'Kitchen' max=3 cur=3 mandatory='' used=3 free=16
+        used[0] 3.6,13.9,-12.2
+        used[1] 4.2,15.3,-12.2
+        used[2] 13.1,17.7,-0.7
+        free[0] 9.2,15.9,-7.1
+        free[1] 3.5,16.6,-12.2
+        free[2] 4.2,15.3,-12.2
+        free[3] 3.6,13.9,-12.2
+        free[4] 11.5,14.9,8.6
+        free[5] 18.4,13.8,12.7
+        free[6] 18.4,15.0,12.7
+        free[7] 18.4,16.5,12.7
+        free[8] 18.4,16.5,8.4
+        free[9] 18.3,16.2,2.0
+        free[10] 18.2,14.5,8.4
+        free[11] 18.3,14.5,3.4
+        free[12] 15.1,14.5,-0.1
+        free[13] 13.0,14.5,-0.3
+        free[14] 13.1,17.7,-0.7
+        free[15] 15.6,17.7,-0.7
+  [4] 'Bathroom' max=1 cur=1 mandatory='' used=1 free=4
+        used[0] 7.0,22.8,4.8
+        free[0] 7.0,22.8,4.8
+        free[1] 6.9,22.8,7.6
+        free[2] 9.6,21.8,12.3
+        free[3] 15.7,21.8,12.3
+  [5] 'Bedrooms' max=2 cur=2 mandatory='' used=2 free=6
+        used[0] 12.6,20.9,-11.9
+        used[1] -9.2,20.9,-2.5
+        free[0] 13.5,21.9,-11.9
+        free[1] 12.6,20.9,-11.9
+        free[2] -8.7,22.6,-2.5
+        free[3] -9.5,21.9,-2.5
+        free[4] -9.2,20.9,-2.5
+        free[5] -14.7,24.5,-7.6
+  [6] 'Bedroom GrannyGrandpa' max=1 cur=1 mandatory='' used=1 free=4
+        used[0] -14.4,22.6,-0.7
+        free[0] -14.4,22.6,-0.7
+        free[1] -13.0,21.8,-0.7
+        free[2] -14.4,21.1,-0.7
+        free[3] -14.6,23.1,-14.6
+  [7] 'Cellar' max=2 cur=2 mandatory='' used=2 free=8
+        used[0] 3.1,19.6,-17.0
+        used[1] -6.7,14.8,-19.1
+        free[0] 1.8,18.2,-19.2
+        free[1] 0.8,20.0,-19.0
+        free[2] 3.1,19.6,-17.0
+        free[3] -3.8,19.4,-15.2
+        free[4] -4.9,21.0,-15.2
+        free[5] -5.8,21.0,-16.5
+        free[6] -5.8,19.5,-17.1
+        free[7] -6.7,14.8,-19.1
+  [8] 'Attic' max=1 cur=1 mandatory='' used=1 free=3
+        used[0] -24.5,21.2,1.7
+        free[0] -24.5,21.2,1.7
+        free[1] -26.5,21.2,-0.7
+        free[2] 12.8,27.4,3.9
+  [9] 'Backyard' max=2 cur=1 mandatory='' used=1 free=4
+        used[0] 21.7,14.0,-20.3
+        free[0] 21.7,14.0,-20.3
+        free[1] 31.8,15.2,-3.4
+        free[2] 34.2,14.8,-7.4
+        free[3] 14.0,9.8,-3.6
+
+allItems (25):
+  Main_CuttingPliers / 2       active=True  pos=-24.5,21.2,1.7 area=Attic
+  Main_MasterKey / 1           active=True  pos=-17.8,13.8,-3.4 area=Living
+  Main_Hammer / 2              active=True  pos=-3.0,10.3,3.1 area=BasementArea
+  Main_PadlockKey / 1          active=True  pos=-14.4,22.6,-0.7 area=Bedroom GrannyGrandpa
+  Main_SafeKey / 3             active=True  pos=6.9,13.5,-22.1 area=in:ToyLock
+  Main_WeaponKey / 3           active=True  pos=-6.7,14.8,-19.1 area=Cellar
+  Main_Battery / 1             active=True  pos=12.6,20.9,-11.9 area=Bedrooms
+  Main_WinchHandle / 3         active=True  pos=-9.2,20.9,-2.5 area=Bedrooms
+  Main_Watermelon / 3          active=True  pos=21.7,14.0,-20.3 area=Backyard
+  Main_PlayHouseKey / 3        active=True  pos=30.6,5.2,-23.2 area=in:Well
+  Main_RedCogwheel(1) / 3      active=True  pos=23.1,13.4,-18.9 area=in:Melon
+  Main_OrangeCogwheel(2) / 3   active=True  pos=13.1,17.7,-0.7 area=Kitchen
+  Main_ShotgunBarrel(3)        active=True  pos=3.1,19.6,-17.0 area=Cellar
+  Main_ShotgunButtstock(2)     active=True  pos=4.2,15.3,-12.2 area=Kitchen
+  Main_ShotgunTrigger(1)       active=True  pos=4.0,4.8,-5.9 area=Garage
+  Main_CarKey / 2              active=True  pos=5.7,35.9,9.3 area=in:AtticSpiderLocker
+  Main_SparkPlug / 1           active=True  pos=0.4,8.7,-18.3 area=in:ScrewHoleCellar
+  Main_Gasoline / 1            active=True  pos=-1.1,2.5,-0.0 area=in:Car
+  Main_EnginePart / 1          active=True  pos=7.0,4.4,6.0 area=Garage
+  Main_CarBattery / 1          active=True  pos=-15.4,15.5,-2.9 area=Living
+  Main_Wrench / 1              active=True  pos=-16.2,30.5,7.5 area=in:BehindFan
+  Main_Book / 3                active=True  pos=3.6,13.9,-12.2 area=Kitchen
+  Main_SpiderMeat / 3          active=True  pos=7.1,8.0,0.8 area=in:Safe
+  Main_SpecialKey / 3          active=True  pos=-11.4,28.8,-4.8 area=in:DrawerCribRoom
+  Main_PadlockCode / 1         active=True  pos=7.0,22.8,4.8 area=Bathroom
+
+itemsByName (25) short -> scene object:
+  Pliers             -> Main_CuttingPliers / 2
+  MasterKey          -> Main_MasterKey / 1
+  Hammer             -> Main_Hammer / 2
+  PDKey              -> Main_PadlockKey / 1
+  SafeKey            -> Main_SafeKey / 3
+  Wrench             -> Main_Wrench / 1
+  CarKey             -> Main_CarKey / 2
+  CarBattery         -> Main_CarBattery / 1
+  Engine             -> Main_EnginePart / 1
+  Gas                -> Main_Gasoline / 1
+  SparkPlug          -> Main_SparkPlug / 1
+  WPKey              -> Main_WeaponKey / 3
+  RedCog             -> Main_RedCogwheel(1) / 3
+  OrangeCog          -> Main_OrangeCogwheel(2) / 3
+  PlayKey            -> Main_PlayHouseKey / 3
+  Meat               -> Main_SpiderMeat / 3
+  SPKey              -> Main_SpecialKey / 3
+  Winch              -> Main_WinchHandle / 3
+
+puzzleDefs (9):
+  ScrewHoleCellar prio=2 at=0.4,8.7,-18.3 req=[WPKey] allowed=[MasterKey, PDKey, SafeKey, PlayKey, OrangeCog, RedCog, CarKey, SparkPlug] contains=[]
+  ToyLock prio=1 at=6.9,13.5,-22.1 req=[RedCog, OrangeCog, PlayKey] allowed=[MasterKey, PDKey, SparkPlug, CarKey, SafeKey] contains=[]
+  Melon prio=3 at=23.1,13.4,-18.9 req=[] allowed=[SparkPlug, PlayKey, PDKey, MasterKey, CarKey, WPKey, RedCog, OrangeCog] contains=[]
+  AtticSpiderLocker prio=16 at=5.7,35.9,9.3 req=[Meat, SPKey] allowed=[] contains=[]
+  DrawerCribRoom prio=7 at=-11.4,28.8,-4.8 req=[Hammer] allowed=[MasterKey, CarKey, RedCog, OrangeCog, PDKey, SafeKey, Pliers, WPKey, PlayKey, Shotgun_Trigger, SparkPlug, Meat, Wrench, SPKey] contains=[]
+  BehindFan prio=6 at=-16.2,30.5,7.5 req=[Pliers, Hammer] allowed=[MasterKey, CarKey, RedCog, OrangeCog, PDKey, SafeKey, SPKey, WPKey, PlayKey, Melon, SparkPlug, Meat, Wrench, CarBattery] contains=[]
+  Safe prio=11 at=7.1,8.0,0.8 req=[SafeKey] allowed=[] contains=[]
+  Car prio=12 at=-1.1,2.5,-0.0 req=[CarKey] allowed=[] contains=[]
+  Well prio=13 at=30.6,5.2,-23.2 req=[Winch] allowed=[] contains=[]
